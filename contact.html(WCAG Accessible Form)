@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Shifali Priya</title>
+
+    <meta name="description"
+          content="Contact Shifali Priya through the accessible contact form.">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">
+    Skip to Main Content
+</a>
+
+<header>
+
+    <div class="container">
+
+        <h1>Contact Me</h1>
+
+        <nav aria-label="Primary Navigation">
+
+            <ul class="nav-list">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="contact.html"
+                       aria-current="page">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<main id="main-content">
+
+    <section aria-labelledby="contact-heading">
+
+        <div class="container">
+
+            <h2 id="contact-heading">
+                Get In Touch
+            </h2>
+
+            <form action="#"
+                  method="post"
+                  aria-labelledby="contact-heading">
+
+                <div>
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        autocomplete="name">
+
+                </div>
+
+                <div>
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        autocomplete="email">
+
+                </div>
+
+                <div>
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required>
+
+                </div>
+
+                <div>
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        required></textarea>
+
+                </div>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="container">
+
+        <p>© 2026 Shifali Priya</p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
